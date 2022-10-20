@@ -6,12 +6,12 @@ https://brew.sh/
 
 ## Check is brew is installed properly
 which brew <br />
-brew help__
+brew help
 
 # Install Browser of Choice
-Chrome__
-Mozilla Firefox__
-Microsoft Edge__
+Chrome <br />
+Mozilla Firefox <br />
+Microsoft Edge
 
 # Install VSCode
 https://code.visualstudio.com/
@@ -19,53 +19,53 @@ https://code.visualstudio.com/
 # Install NVM
 
 ## Run the following commands
-brew update__
-brew install nvm__
+brew update <br />
+brew install nvm
 
 ## Create NVM's working directory and zshrc file
-mkdir ~/.nvm__
-touch ~/.zshrc__
+mkdir ~/.nvm <br />
+touch ~/.zshrc
 
 ## Add the following configurations to the zshrc file
-export NVM_DIR="$HOME/.nvm"__
-#This loads nvm__
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"__
-#This loads nvm bash_completion__
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"__
+export NVM_DIR="$HOME/.nvm" <br />
+#This loads nvm <br />
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh" <br />
+#This loads nvm bash_completion <br />
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
 
 ## Check if nvm is installed properly
-nvm help__
+nvm help
 
 # Install Node (using NVM)
-nvm install node__
+nvm install node
 
 # Install Mongodb Community
 ## Run the following commands
-brew update__
-brew tap mongodb/brew__
+brew update <br />
+brew tap mongodb/brew
 
 ## Install the version of choice (5.0 used as an example)
-brew install mongodb-community@5.0__
+brew install mongodb-community@5.0
 
 ## Add the following configuration to zshrc file
-export PATH="/opt/homebrew/opt/mongodb-community@5.0/bin:$PATH"__
+export PATH="/opt/homebrew/opt/mongodb-community@5.0/bin:$PATH"
 
 ## Install Rosetta for Apple M1 Silicon Chip
-softwareupdate --install-rosetta__
+softwareupdate --install-rosetta
 
 ## Check if mongodb is installed properly
-mongo --version__
-mongod --version__
-mongos --version__
-mongosh --version__
-which mongo__
+mongo --version <br />
+mongod --version <br />
+mongos --version <br />
+mongosh --version <br />
+which mongo
 
 ## Starting and stopping mongodb server
-brew services start mongodb/brew/mongodb-community@5.0__
-brew services stop mongodb/brew/mongodb-community@5.0__
+brew services start mongodb/brew/mongodb-community@5.0 <br />
+brew services stop mongodb/brew/mongodb-community@5.0
 
 ## Add configurations to mongod 
-mongod --config /opt/homebrew/etc/mongod.conf --fork__
+mongod --config /opt/homebrew/etc/mongod.conf --fork
 
 ## Start server
-mongosh__
+mongosh
