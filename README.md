@@ -1,5 +1,6 @@
-# Mac-Setup
-Setting up a new macbook for development
+# Mac-Setup-Guide
+Setting up a macbook for development
+Note: The following set of instructions were carried out on a fresh MacBook M1 Pro 14 with MacOS Monterey v12.5
 
 # Install Homebrew
 https://brew.sh/
