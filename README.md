@@ -5,7 +5,7 @@ Setting up a new macbook for development
 https://brew.sh/
 
 ## Check is brew is installed properly
-which brew__
+which brew <br />
 brew help__
 
 # Install Browser of Choice
