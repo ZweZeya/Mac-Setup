@@ -1,22 +1,23 @@
 # Mac-Setup
 Setting up a new macbook for development
 
-----Install Homebrew----
+# Install Homebrew
 https://brew.sh/
 
 ## Check is brew is installed properly
 which brew
 brew help
 
-----Install Browser of Choice----
+# Install Browser of Choice
 Chrome
 Mozilla Firefox
 Microsoft Edge
 
-----Install VSCode----
+# Install VSCode
 https://code.visualstudio.com/
 
-----Install Node----
+# Install NVM
+
 ## Run the following commands
 brew update
 brew install nvm
@@ -26,22 +27,19 @@ mkdir ~/.nvm
 touch ~/.zshrc
 
 ## Add the following configurations to the zshrc file
-
 export NVM_DIR="$HOME/.nvm"
-
-# This loads nvm
+#This loads nvm
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
-
-# This loads nvm bash_completion
+#This loads nvm bash_completion
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" 
 
 ## Check if nvm is installed properly
 nvm help
 
-## Install Node
+# Install Node (using NVM)
 nvm install node
 
-----Install Mongodb Community----
+# Install Mongodb Community
 ## Run the following commands
 brew update
 brew tap mongodb/brew
